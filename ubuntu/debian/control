@@ -14,12 +14,12 @@ Build-Depends: debhelper (>= 11),
 	       libignition-math6-eigen3-dev,
 	       libignition-msgs7-dev,
 	       libignition-plugin-dev,
-	       libignition-physics3-dev,
+	       libignition-physics4-dev,
 	       libignition-sensors5-dev,
 	       libignition-rendering5-dev,
 	       libignition-tools-dev,
 	       libignition-transport10-dev,
-	       libsdformat10-dev
+	       libsdformat11-dev
 Vcs-Browser: https://bitbucket.org/ignitionrobotics/ignition-edifice-release
 Vcs-Hg: https://bitbucket.org/ignitionrobotics/ignition-edifice-release
 Homepage: http://ignitionrobotics.org/
@@ -37,12 +37,12 @@ Depends: libignition-cmake2-dev,
          libignition-math6-eigen3-dev,
          libignition-msgs7-dev,
          libignition-plugin-dev,
-         libignition-physics3-dev,
+         libignition-physics4-dev,
          libignition-sensors5-dev,
          libignition-rendering5-dev,
          libignition-tools-dev,
          libignition-transport10-dev,
-         libsdformat10-dev,
+         libsdformat11-dev,
          ${misc:Depends}
 Multi-Arch: foreign
 Description: Collection of ignition robotics packages - Edifice
