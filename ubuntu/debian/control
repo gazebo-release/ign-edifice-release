@@ -5,7 +5,7 @@ Section: science
 Priority: optional
 Build-Depends: debhelper (>= 11),
 	       libignition-cmake2-dev,
-  	       libignition-common3-dev,
+  	       libignition-common4-dev,
   	       libignition-fuel-tools6-dev,
 	       libignition-gazebo5-dev,
 	       libignition-gui5-dev,
@@ -28,7 +28,7 @@ Package: ignition-edifice
 Architecture: any
 Section: libdevel
 Depends: libignition-cmake2-dev,
-         libignition-common3-dev,
+         libignition-common4-dev,
          libignition-fuel-tools6-dev,
          libignition-gazebo5-dev,
          libignition-gui5-dev,
