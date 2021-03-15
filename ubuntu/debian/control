@@ -4,22 +4,24 @@ Maintainer: Jose Luis Rivero <jrivero@osrfoundation.org>
 Section: science
 Priority: optional
 Build-Depends: debhelper (>= 11),
-	       libignition-cmake2-dev,
-  	       libignition-common4-dev,
-  	       libignition-fuel-tools6-dev,
-	       libignition-gazebo5-dev,
-	       libignition-gui5-dev,
-	       libignition-launch4-dev,
-	       libignition-math6-dev,
-	       libignition-math6-eigen3-dev,
-	       libignition-msgs7-dev,
-	       libignition-plugin-dev,
-	       libignition-physics4-dev,
-	       libignition-sensors5-dev,
-	       libignition-rendering5-dev,
-	       libignition-tools-dev,
-	       libignition-transport10-dev,
-	       libsdformat11-dev
+               libignition-cmake2-dev,
+               libignition-common4-dev,
+               libignition-fuel-tools6-dev,
+               libignition-gazebo5-dev,
+               libignition-gui5-dev,
+               libignition-launch4-dev,
+               libignition-math6-dev,
+               libignition-math6-eigen3-dev,
+               libignition-msgs7-dev,
+               libignition-plugin-dev,
+               libignition-physics4-dev,
+               libignition-sensors5-dev,
+               libignition-rendering5-dev,
+               libignition-tools-dev,
+               libignition-transport10-dev,
+               libignition-utils1-dev,
+               libignition-utils1-cli-dev,
+               libsdformat11-dev
 Vcs-Browser: https://bitbucket.org/ignitionrobotics/ignition-edifice-release
 Vcs-Hg: https://bitbucket.org/ignitionrobotics/ignition-edifice-release
 Homepage: http://ignitionrobotics.org/
@@ -42,6 +44,7 @@ Depends: libignition-cmake2-dev,
          libignition-rendering5-dev,
          libignition-tools-dev,
          libignition-transport10-dev,
+         libignition-utils1-dev,
          libsdformat11-dev,
          ${misc:Depends}
 Multi-Arch: foreign
