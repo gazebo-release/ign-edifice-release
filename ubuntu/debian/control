@@ -13,17 +13,17 @@ Build-Depends: debhelper (>= 11),
                libignition-math6-dev,
                libignition-math6-eigen3-dev,
                libignition-msgs7-dev,
-               libignition-plugin-dev,
                libignition-physics4-dev,
-               libignition-sensors5-dev,
+               libignition-plugin-dev,
                libignition-rendering5-dev,
+               libignition-sensors5-dev,
                libignition-tools-dev,
                libignition-transport10-dev,
-               libignition-utils1-dev,
                libignition-utils1-cli-dev,
+               libignition-utils1-dev,
                libsdformat11-dev
-Vcs-Browser: https://bitbucket.org/ignitionrobotics/ignition-edifice-release
-Vcs-Hg: https://bitbucket.org/ignitionrobotics/ignition-edifice-release
+Vcs-Browser: https://github.com/ignition-release/ignition-edifice-release
+Vcs-Git: https://github.com/ignition-release/ignition-edifice-release
 Homepage: http://ignitionrobotics.org/
 
 Package: ignition-edifice
@@ -34,16 +34,17 @@ Depends: libignition-cmake2-dev,
          libignition-fuel-tools6-dev,
          libignition-gazebo5-dev,
          libignition-gui5-dev,
-      	 libignition-launch4-dev,
+         libignition-launch4-dev,
          libignition-math6-dev,
          libignition-math6-eigen3-dev,
          libignition-msgs7-dev,
-         libignition-plugin-dev,
          libignition-physics4-dev,
-         libignition-sensors5-dev,
+         libignition-plugin-dev,
          libignition-rendering5-dev,
+         libignition-sensors5-dev,
          libignition-tools-dev,
          libignition-transport10-dev,
+         libignition-utils1-cli-dev,
          libignition-utils1-dev,
          libsdformat11-dev,
          ${misc:Depends}
