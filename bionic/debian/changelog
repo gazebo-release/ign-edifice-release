@@ -1,3 +1,9 @@
+ignition-edifice (1.0.1-1~bionic) bionic; urgency=medium
+
+  * ignition-edifice 1.0.1-1 release
+
+ -- Louise Poubel <louise@openrobotics.org>  Tue, 26 Oct 2021 22:02:14 -0700
+
 ignition-edifice (1.0.0-1~bionic) bionic; urgency=medium
 
   * ignition-edifice 1.0.0-1 release
